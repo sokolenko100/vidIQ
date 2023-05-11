@@ -1,0 +1,16 @@
+current directory: /Users/artemsokolenko/Documents/vidIQ/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+/Users/artemsokolenko/.rvm/rubies/ruby-2.7.6/bin/ruby -I /Users/artemsokolenko/.rvm/rubies/ruby-2.7.6/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /Users/artemsokolenko/Documents/vidIQ/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20230511-5401-avu99i sitelibdir\=./.gem.20230511-5401-avu99i clean
+
+current directory: /Users/artemsokolenko/Documents/vidIQ/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20230511-5401-avu99i sitelibdir\=./.gem.20230511-5401-avu99i
+make: Nothing to be done for `all'.
+
+current directory: /Users/artemsokolenko/Documents/vidIQ/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20230511-5401-avu99i sitelibdir\=./.gem.20230511-5401-avu99i install
+
+current directory: /Users/artemsokolenko/Documents/vidIQ/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20230511-5401-avu99i sitelibdir\=./.gem.20230511-5401-avu99i clean
