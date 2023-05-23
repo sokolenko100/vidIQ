@@ -4,7 +4,7 @@ import {
   FlatList,
 } from 'react-native';
 import {GoogleSignin} from '@react-native-google-signin/google-signin';
-import { SCOUPES, VIDEOS_ENDPOINT, WEB_CLIENT_ID } from './constants';
+import { SCOUPES, URL_VIDEOS_ENDPOINT, WEB_CLIENT_ID } from './constants';
 import Error from './components/Error';
 import Loading from './components/Loading';
 import Video from './components/Video ';
@@ -26,11 +26,10 @@ const VideosList = () => {
 
   const fetchData = async () => {
     try {
-      setIsError(false);
       await GoogleSignin.hasPlayServices();
       const userInfo = await GoogleSignin.signInSilently();
       const {accessToken} = userInfo;
-      fetch(VIDEOS_ENDPOINT, {
+      fetch(URL_VIDEOS_ENDPOINT, {
         headers: {
           Authorization: `Bearer ${accessToken}`,
           Accept: 'application/json',
